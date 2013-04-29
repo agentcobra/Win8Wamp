@@ -3,7 +3,7 @@ Win8Wamp
 
 Win8Wamp is a `WAMPSERVER` home page based on windows8 design concept.
 
-![Try the demo](http://alexionfr.github.io/Win8Wamp)
+[Try the demo !](http://alexionfr.github.io/Win8Wamp/)
 
 Screenshot
 -------------
