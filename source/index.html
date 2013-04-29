@@ -9,6 +9,21 @@
 	<div class="container">
 
 		<!-- Header section -->
+		<div id="admin">
+			<div style="margin: 0 0 0 140px">
+				<p><strong>Wamp</strong>: <?php echo $wampserverVersion; ?></p>
+				<p><strong>MySQL</strong>: <?php echo $mysqlVersion; ?></p>
+				<p><strong>Apache</strong>: <?php echo $apacheVersion; ?></p>
+				<p><strong>PHP</strong>: <?php echo $phpVersion; ?></p>
+			</div>
+			<div style="margin: -90px 0 0 320px">
+				<p><a href="?phpinfo">> PHP Info</a></p>
+				<p><a href="<?php echo $phpmyadminDirectory; ?>">> PhpMyAdmin</a></p>
+			</div>
+		</div>
+		<a href="#"><div id="menu">Admin</div></a>
+		<div class="header">
+	
 		<div class="header">
 			<div class="row">
 				<div class="pull-left">
@@ -18,8 +33,8 @@
 					<div class="avatar">
 						<div class="row">
 							<div class="name pull-left">
-								<h1>Omar</h1>
-								<small>Berrayti</small>
+								<h1>Alexandre</h1>
+								<small>Lion</small>
 							</div>
 							<div class="pull-right">
 								<img src="img/avatar.png">
@@ -80,6 +95,25 @@
 	</div>
 
 
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/holder.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var open = false;
+			$('#admin').hide();
+			$('#menu').click(function() {
+				if(!open) {
+					$('#admin').slideDown();
+					$('#menu').text('Close');
+					open = true;
+				} else if(open) {
+					$('#admin').slideUp();
+					$('#menu').text('Admin');
+					open = false;
+				}
+			});
+		});
+	</script>
 </body>
 </html>

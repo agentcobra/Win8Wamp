@@ -38,4 +38,4 @@ All what you have to do now, is to enjoy with your new wamp home page.
 Credits
 -------
 
-Win8Wamp is a project by Omar BERRAYTI
+Win8Wamp is a project by Omar BERRAYTI and forked by Alexandre Lion
