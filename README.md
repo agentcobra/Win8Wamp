@@ -28,7 +28,7 @@ The same thing as the screenshots, jus put a `favicon.png` or `favicon.ico` imag
 User avatar
 -------------
 
-If you want to change the avatar in the top of the page, just replace the `avatar.png` image with your avatar, but keep in mind to keep the same name `avatar.png`
+Just put your email address, It will take the libravatar's picture. If you haven't one, it will take Gravatar's picture.
 
 Enjoy
 -------------
