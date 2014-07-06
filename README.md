@@ -1,14 +1,12 @@
 Win8Wamp
 ======
 
-Win8Wamp is a `WAMPSERVER` home page based on windows8 design concept.
-
-[Try the demo !](http://alexionfr.github.io/Win8Wamp/)
+Win8Wamp is a `WAMPSERVER` home page based on windows8 design concept
 
 Screenshot
 -------------
 
-![ScreenShot](https://github.com/Alexionfr/Win8Wamp/blob/master/screenshot.png)
+![ScreenShot](screenshot.jpg)
 
 Installation
 -------------
@@ -40,4 +38,4 @@ All what you have to do now, is to enjoy with your new wamp home page.
 Credits
 -------
 
-Win8Wamp is a project by Omar BERRAYTI and forked by Alexandre Lion
+Win8Wamp is a project by Omar BERRAYTI
