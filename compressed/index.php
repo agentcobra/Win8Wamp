@@ -95,17 +95,15 @@ $wampserverVersion = str_replace('"','',$result[1]);
 				</div>
 				<div class="pull-right">
 					<div class="avatar">
-						<div class="row">
-							<div class="name pull-left">
-								<h1><?php echo $firstName; ?></h1>
-								<small><?php echo $lastName; ?></small>
-							</div>
-							<div class="pull-right">
-								<img src="http://cdn.libravatar.org/avatar/<?php echo md5($email);?>?s=180">
-							</div>
+						<div class="name pull-left">
+							<h1><?php echo $firstName; ?></h1>
+							<small><?php echo $lastName; ?></small>
+						</div>
+						<div class="pull-right">
+							<img src="http://cdn.libravatar.org/avatar/<?php echo md5($email);?>?s=180">
 						</div>
 					</div>
-							<a href="#"><div id="menu">Admin</div></a>
+					<a href="#"><div id="menu">Admin</div></a>
 				</div>
 			</div>
 		</div>
@@ -125,7 +123,8 @@ $wampserverVersion = str_replace('"','',$result[1]);
 		$(document).ready(function() {
 			var open = false;
 			$('#admin').hide();
-			$('#menu').click(function() {
+			$('#menu').click(function(e) {
+				e.preventDefault();
 				if(!open) {
 					$('#admin').slideDown();
 					$('#menu').text('Close');
