@@ -28,7 +28,7 @@ The same thing as the screenshots, jus put a `favicon.png` or `favicon.ico` imag
 User avatar
 -------------
 
-Just put your email address, It will take the libravatar's picture. If you haven't one, it will take Gravatar's picture.
+Just put your email address, It will take the Libravatar's picture. If you haven't one, it will take Gravatar's picture.
 
 Enjoy
 -------------
