@@ -6,10 +6,10 @@
 **/
 
 $title     = "Wamp Home Page"; // The page title
-$firstName = "Alexandre";           // Your first name
-$lastName  = "Lion";       // Your last name
+$lastName  = "Berrayti";       // Your last name
 $phpmyadminDirectory = "../phpmyadmin/"; // PhpMyAdmin Directory
 $wampConfFile = '../../wampmanager.conf'; // Wamp conf file
+$email  = "berrayti.omar@gmail.com";       // Your email address
 
 $folder             = opendir('.');
 $projectContents    = '';
@@ -99,7 +99,7 @@ $wampserverVersion = str_replace('"','',$result[1]);
 								<small><?php echo $lastName; ?></small>
 							</div>
 							<div class="pull-right">
-								<img src="avatar.png">
+								<img src="http://cdn.libravatar.org/avatar/<?php echo md5($email);?>?s=180">
 							</div>
 						</div>
 					</div>
@@ -118,7 +118,6 @@ $wampserverVersion = str_replace('"','',$result[1]);
 	
 	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="holder.js"></script>
-
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var open = false;
