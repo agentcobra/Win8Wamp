@@ -6,9 +6,10 @@
 **/
 
 $title     = "Wamp Home Page"; // The page title
+$firstName = "Omar";           // Your first name
 $lastName  = "Berrayti";       // Your last name
 $phpmyadminDirectory = "../phpmyadmin/"; // PhpMyAdmin Directory
-$wampConfFile = '../../wampmanager.conf'; // Wamp conf file
+$wampConfFile = '../wampmanager.conf'; // Wamp conf file
 $email  = "berrayti.omar@gmail.com";       // Your email address
 
 $folder             = opendir('.');
