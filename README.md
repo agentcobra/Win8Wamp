@@ -6,11 +6,7 @@ Win8Wamp is a `WAMPSERVER` home page based on windows8 design concept
 Screenshot
 -------------
 
-<<<<<<< HEAD
-![ScreenShot](screenshot.png)
-=======
 ![ScreenShot](screenshot.jpg)
->>>>>>> origin/master
 
 Installation
 -------------
